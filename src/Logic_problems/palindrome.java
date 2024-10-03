@@ -2,7 +2,7 @@ package Logic_problems;
 
 public class palindrome {
    public static void main(String[] args) {
-      String str = "nitin";
+      String str = "1331";
       System.out.println(str+" is Palindrome: "+isPalindrome(str));
    }
 

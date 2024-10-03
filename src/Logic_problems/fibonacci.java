@@ -5,15 +5,24 @@ public class fibonacci {
    static int y = 1;
 
    static void fib(int n) {
-      int temp;
-      temp = x + y;
-      System.out.print(" "+temp);
+      int temp = x + y;
+      System.out.print(" " + temp);
+
       x = y;
       y = temp;
       n--;
       if (n > 2) {
          fib(n);
       }
+      
+      // while (n > 2) {
+      //    int temp = x + y;
+      //    System.out.print(" " + temp);
+
+      //    x = y;
+      //    y = temp;
+      //    n--;
+      // }
    }
    public static void main(String[] args) {
       System.out.print(x + " " + y);
